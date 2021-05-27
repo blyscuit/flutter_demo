@@ -112,6 +112,7 @@ class _RandomWordsState extends State<RandomWords> {
     );
 
     if (result == null) { return; }
+    
     _addToList('$result');
 
     // After the Selection Screen returns a result, hide any previous snackbars
